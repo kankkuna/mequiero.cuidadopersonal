@@ -7494,7 +7494,7 @@ h1, h2, h3, h4, h5,
     display: inline-block;
     width: 30px;
     height: 2px;
-    color: #000000;
+    color: #;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
@@ -7667,7 +7667,7 @@ h1, h2, h3, h4, h5,
       color: #fff;
       font-size: 20px; }
     .photography-entry .text span.tag {
-      font-size: 12px;
+      font-size: 27px;
       text-transform: uppercase;
       letter-spacing: 2px;
       color: rgba(255, 255, 255, 0.8); }
@@ -8195,7 +8195,7 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  /*background-size: cover;*/
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -8214,10 +8214,10 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out; }
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
   opacity: 1; }
